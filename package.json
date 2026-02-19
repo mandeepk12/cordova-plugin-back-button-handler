@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-back-button-handler",
+  "version": "1.0.0",
+  "description": "Cordova plugin for android to handle back button for all build tools",
+  "cordova": {
+    "id": "cordova-plugin-back-button-handler",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandeepk12/cordova-plugin-back-button-handler.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Mandeep Kaur",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mandeepk12/cordova-plugin-back-button-handler/issues"
+  },
+  "homepage": "https://github.com/mandeepk12/cordova-plugin-back-button-handler#readme"
+}

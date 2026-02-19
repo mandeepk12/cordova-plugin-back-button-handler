@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-back-button-handler" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<name>Back Button Handler</name>
+<js-module name="BackButtonHandler" src="www/BackButtonHandler.js">
+<clobbers target="cordova.plugins.BackButtonHandler" />
+</js-module>
+<platform name="android">
+
+    <config-file parent="/*" target="res/xml/config.xml">
+        <feature name="BackButtonHandler">
+            <param name="android-package" value="com.betasoft.cordova.plugin.backbuttonhandler.BackButtonHandler" />
+        </feature>
+    </config-file>
+    
+    <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+
+  
+
+    <source-file src="src/android/BackButtonHandler.java" target-dir="src/com/betasoft/cordova/plugin/backbuttonhandler" />
+</platform>
+<author email="kaur314.mandeep@gmail.com">Mandeep Kaur</author>
+</plugin>
