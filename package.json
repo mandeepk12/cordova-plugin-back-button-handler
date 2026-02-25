@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-back-button-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cordova plugin for android to handle back button for all build tools",
   "cordova": {
     "id": "cordova-plugin-back-button-handler",
